@@ -12,9 +12,9 @@ resources:
 patches:
 - path: storage-class.yaml
 - path: indexer-resources.yaml
+- path: indexer-svc.yaml
 - path: dashboard-resources.yaml
 - path: dashboard-svc.yaml
 - path: wazuh-master-resources.yaml
-- path: wazuh-master-svc.yaml
 - path: wazuh-worker-resources.yaml
 - path: wazuh-workers-svc.yaml
